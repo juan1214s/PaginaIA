@@ -33,7 +33,7 @@ export default function CarouselWithContent() {
             </p>
             <div className="flex gap-4">
               <button className="bg-white text-black px-4 py-2 rounded-lg">
-                Mas informacion
+                Contactanos
               </button>
             </div>
           </div>

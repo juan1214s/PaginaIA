@@ -13,7 +13,7 @@ function App() {
       <Header/>
       <Carousel/>
       <AboutUs/>
-      {/* <Services/> */}
+      <Services/>
     </div>
     </>
   )
