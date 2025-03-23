@@ -1,11 +1,20 @@
 import './App.css'
+import Header from './components/header';
+import Services from './components/services';
+import AboutUs from './components/AboutUs';
+import Carousel from "./components/Carousel"
 
 function App() {
 
 
   return (
     <>
-    <p className="text-4xl font-bold uppercase text-red-500-500 m-2">Hola</p>
+    <div className='m-2'>
+      <Header/>
+      <Carousel/>
+      <AboutUs/>
+      {/* <Services/> */}
+    </div>
     </>
   )
 }
