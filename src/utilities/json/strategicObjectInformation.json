@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Excelencia Operativa",
+        "icon": "bi bi-graph-up",
+        "description": "Optimizamos los procesos empresariales de nuestros clientes para maximizar su eficiencia y productividad."
+    },
+    {
+        "id": 2,
+        "title": "Innovación Tecnológica",
+        "icon": "bi bi-lightbulb",
+        "description": "Implementamos soluciones de IA y automatización que impulsan la transformación digital de las organizaciones."
+    },
+    {
+        "id": 3,
+        "title": "Calidad Superior",
+        "icon": "bi bi-star-fill",
+        "description": "Mantenemos los más altos estándares de calidad en todos nuestros servicios y procesos de consultoría."
+    }
+]

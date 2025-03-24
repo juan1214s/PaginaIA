@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "icon": "bi bi-clipboard-check",
+        "title": "Levantamiento de procesos",
+        "description": "Analizamos y documentamos sus procesos empresariales para identificar oportunidades de mejora y optimización.",
+        "details": [
+            "Mapeo de procesos end-to-end",
+            "Análisis de eficiencia operativa",
+            "Identificación de cuellos de botella",
+            "Documentación detallada de procedimientos"
+        ]
+    },
+    {
+        "id": 2,
+        "icon": "bi bi-boxes",
+        "title": "Gestión de la Calidad",
+        "description": "Implementamos sistemas de gestión de calidad para garantizar la excelencia en sus operaciones.",
+        "details": [
+            "Implementación de ISO 9001",
+            "Auditorías de calidad",
+            "Mejora continua",
+            "Capacitación en gestión de calidad"
+        ]
+    },
+    {
+        "id": 3,
+        "icon": "bi bi-robot",
+        "title": "Automatización con IA",
+        "description": "Desarrollamos soluciones de automatización inteligente para optimizar sus procesos empresariales.",
+        "details": [
+            "Automatización de procesos robóticos (RPA)",
+            "Implementación de Machine Learning",
+            "Análisis predictivo",
+            "Optimización de flujos de trabajo"
+        ]
+    }
+]

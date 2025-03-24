@@ -1,36 +1,31 @@
 import React from "react";
-import "../App.css";
+import aboutInfo from "../utilities/json/aboutInformation.json"; // Importa el archivo JSON con la información sobre la empresa.
 
 export default function AboutUs() {
     return (
+        // Contenedor principal que centra el contenido en la pantalla
         <div className="flex justify-center items-center flex-col mt-12">
+            
+            {/* Sección de introducción con el título y descripción */}
             <div className="flex flex-col items-center text-center">
-                <h1 className="text-4xl">Sobre Nosotros</h1>
-                <p className="text-center max-w-2xl m-6">
-                    Somos una empresa líder en consultoría empresarial, especializada en optimización de procesos,
-                    gestión de calidad y soluciones de IA para impulsar la transformación digital.
-                </p>
+                <h1 className="text-3xl">{aboutInfo.title}</h1> {/* Muestra el título desde el JSON */}
+                <p className="text-center max-w-2xl m-6">{aboutInfo.description}</p> {/* Muestra la descripción desde el JSON */}
             </div>
 
-
+            {/* Sección que contiene la misión y visión en un grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8">
-                <div className="border border-gray-300 shadow-lg rounded-lg p-6">
-                    <h1 className="text-4xl"><i class="bi bi-record-circle-fill text-blue-500 "></i> Misión</h1>
-                    <p className="mt-6">
-                        Nuestra misión es transformar organizaciones mediante la optimización de procesos
-                        y la implementación de soluciones tecnológicas innovadoras, garantizando la excelencia
-                        operativa y el crecimiento sostenible de nuestros clientes.
-                    </p>
-                </div>
-
-                <div className="border border-gray-300 shadow-xl rounded-lg p-6">
-                    <h1 className="text-4xl"> <i class="bi bi-vinyl text-blue-500 "></i> Visión</h1>
-                    <p className="mt-6">
-                        Ser reconocidos como referente líder en consultoría de procesos y transformación digital
-                        en Latinoamérica, destacando por nuestra innovación, excelencia y compromiso con el éxito
-                        de nuestros clientes.
-                    </p>
-                </div>
+                {aboutInfo.sections.map((section) => ( // Mapea las secciones (Misión y Visión) desde el JSON
+                    <div 
+                        key={section.id} // Clave única para React
+                        className="border border-gray-300 shadow-lg rounded-lg p-6"
+                    >
+                        {/* Título de la sección con su respectivo icono */}
+                        <h1 className="text-3xl">
+                            <i className={section.icon}></i> {section.title} {/* Usa la clase de icono del JSON */}
+                        </h1>
+                        <p className="mt-6">{section.description}</p> {/* Muestra la descripción de la sección */}
+                    </div>
+                ))}
             </div>
         </div>
     );
