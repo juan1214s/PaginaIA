@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../App.css";
 
 // Función para hacer scroll suave hasta una sección específica
@@ -10,21 +11,21 @@ function scrollToSection(sectionId) {
 }
 
 export default function Header() {
-  const [menuOpen, setMenuOpen] = useState(false); // Estado para abrir/cerrar menú
+  const [menuOpen, setMenuOpen] = useState(false); // Estado del menú
 
   return (
     <header className="shadow-md tracking-wide relative z-50">
       {/* Barra de navegación */}
       <div className="flex items-center justify-between px-10 py-3 bg-white min-h-[65px]">
-        
+
         {/* Logo de la empresa */}
-        <a href="#">
+        <Link to="/">
           <img
             src="https://readymadeui.com/readymadeui.svg"
             alt="logo"
             className="w-36"
           />
-        </a>
+        </Link>
 
         {/* Botón de menú hamburguesa para móviles */}
         <button
@@ -51,27 +52,33 @@ export default function Header() {
             menuOpen ? "block" : "hidden"
           } sm:flex-row sm:gap-5 flex flex-col items-center sm:items-center sm:space-x-6`}
         >
-          {/* Enlaces del menú */}
+          {/* Botones con scroll suave */}
           <button onClick={() => scrollToSection("servicios")} className="py-3 sm:py-0">
-            <a href="#" className="hover:text-blue-700 text-slate-900 font-medium text-[15px]">
+            <span className="hover:text-blue-700 text-slate-900 font-medium text-[15px] cursor-pointer">
               Servicios
-            </a>
+            </span>
           </button>
+
           <button onClick={() => scrollToSection("objetivos")} className="py-3 sm:py-0">
-            <a href="#" className="hover:text-blue-700 text-slate-900 font-medium text-[15px]">
+            <span className="hover:text-blue-700 text-slate-900 font-medium text-[15px] cursor-pointer">
               Objetivos Estratégicos
-            </a>
+            </span>
           </button>
-          <button onClick={() => scrollToSection("testimonios")} className="py-3 sm:py-0">
-            <a href="#" className="hover:text-blue-700 text-slate-900 font-medium text-[15px]">
-              Testimonios
-            </a>
-          </button>
-          <button onClick={() => scrollToSection("informacion")} className="py-3 sm:py-0">
-            <a href="#" className="hover:text-blue-700 text-slate-900 font-medium text-[15px]">
-              ¿Quiénes Somos?
-            </a>
-          </button>
+
+          {/* Enlaces con React Router */}
+          <Link
+            to="/testimonies"
+            className="py-3 sm:py-0 hover:text-blue-700 text-slate-900 font-medium text-[15px]"
+          >
+            Testimonios
+          </Link>
+
+          <Link
+            to="/about-us"
+            className="py-3 sm:py-0 hover:text-blue-700 text-slate-900 font-medium text-[15px]"
+          >
+            ¿Quiénes Somos?
+          </Link>
         </nav>
       </div>
     </header>

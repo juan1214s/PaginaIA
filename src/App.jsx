@@ -1,26 +1,18 @@
-import './App.css'
-import Header from './components/header';
-import Services from './components/services';
-import AboutUs from './components/AboutUs';
-import BannerContent from "./components/banner"
-import StrategicObject from './components/strategicObject';
-import Footer from './components/footer';
+import Layout from "./components/layout";
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/pages/home";  // Agregar la importación de Home
+import Testimonies from "./components/pages/testimonies";
 
 function App() {
-
-
   return (
-    <>
-    <div className='m-5'>
-      <Header/>
-      <BannerContent/>
-      <AboutUs/>
-      <Services/>
-      <StrategicObject/>
-    </div>
-    <Footer />
-    </>
-  )
+    <Layout>  
+      {/* Definiendo las rutas correctamente */}
+      <Routes>
+        <Route path="/" element={<Home />} />  
+        <Route path="/testimonies" element={<Testimonies />} />
+      </Routes>
+    </Layout>
+  );
 }
 
-export default App
+export default App;

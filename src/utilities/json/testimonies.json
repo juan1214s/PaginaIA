@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Transformación Digital en Manufactura",
+    "company": "IndustriasTech S.A",
+    "description": "Se implementó un sistema de automatización de procesos que redujo los tiempos de producción en un 40% y mejoró la calidad del producto en un 25%.",
+    "results": [
+      "40% reducción en tiempos",
+      "25% mejora en calidad",
+      "ROI en 6 meses"
+    ],
+    "image": "/img/estadisticas.png"
+  },
+  {
+    "id": 2,
+    "title": "Optimización de Servicios Financieros",
+    "company": "Banco Progreso",
+    "description": "Desarrollamos e implementamos un sistema de IA para la detección de fraudes que incrementó la eficiencia en un 60% y redujo los falsos positivos en un 35%.",
+    "results": [
+      "60% mayor eficiencia",
+      "35% menos falsos positivos",
+      "98% precisión en detección"
+    ],
+    "image": "/img/banco.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Gestión de Calidad en Logística",
+    "company": "LogísticaPro",
+    "description": "Implementamos un sistema integral de gestión de calidad que optimizó las rutas de entrega y redujo los tiempos de espera en un 50%.",
+    "results": [
+      "50% reducción de tiempo de espera",
+      "30% ahorro en combustible",
+      "95% satisfacción del cliente"
+    ],
+    "image": "/img/bolsa.jpg"
+  }
+]

@@ -7,12 +7,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 export default function BannerContent() {
-  
-  // Función para abrir un enlace de Calendly en una nueva pestaña
-  const openGerenciaOprocess = () => {
-    window.open("https://calendly.com/gerencia-oprocesss/30min");
-  };
-
   return (
     // Componente Swiper para crear el carrusel de imágenes
     <Swiper
@@ -34,7 +28,7 @@ export default function BannerContent() {
             alt={`Slide ${index + 1}`} // Texto alternativo para accesibilidad
             className="h-[500px] w-full object-cover rounded-xl" // Estilos de Tailwind para tamaño y bordes redondeados
           />
-
+          
           {/* Superposición oscura con contenido centrado */}
           <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center p-4">
             
@@ -47,18 +41,7 @@ export default function BannerContent() {
             <p className="text-white text-lg opacity-80 mb-4">
               {slide.description}
             </p>
-            
-            {/* Botón de contacto */}
-            <div className="flex gap-4">
-              {
-                <button
-                  onClick={openGerenciaOprocess} // Llama a la función para abrir Calendly al hacer clic
-                  className="bg-white text-black px-4 py-2 rounded-lg transition duration-300 hover:bg-blue-500 hover:text-white hover:shadow-lg hover:-translate-y-1"
-                >
-                  Contáctanos...
-                </button>
-              }
-            </div>
+
           </div>
         </SwiperSlide>
       ))}
