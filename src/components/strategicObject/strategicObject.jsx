@@ -2,7 +2,7 @@ import React from "react";
 import "../../App.css";
 import CarouselStrategicObjt from "../carouselStrategicObj";
 import strategicObjectives from "../../utilities/json/strategicObjectInformation.json";
-import StrategicCard from "./StrategicCard"; // Importamos el componente hijo
+import StrategicCard from "./strategicCard"; // Importamos el componente hijo
 
 export default function StrategicObject() {
     return (
