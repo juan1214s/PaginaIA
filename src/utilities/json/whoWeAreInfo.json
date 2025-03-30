@@ -1,0 +1,18 @@
+{
+    "title": "Sobre Nosotros",
+    "description": "En Oprocess Systems somos un equipo especializado en optimizar los procesos empresariales con enfoque humano mediante soluciones avanzadas de automatización e inteligencia artificial. Nuestra empresa nace en Colombia en el año 2024 con un profundo compromiso por brindar el mejor servicio de consultoría, enfocado en generar valor tangible y sostenible para cada uno de nuestros clientes. Nos caracterizamos por nuestra cercanía, profesionalismo y empatía, trabajando siempre con el objetivo de superar las expectativas de quienes depositan su confianza en nosotros.",
+    "sections": [
+        {
+            "id": 1,
+            "title": "Misión",
+            "icon": "bi bi-record-circle-fill text-blue-500",
+            "description": "En Oprocess Systems nos comprometemos con la optimización de los procesos empresariales con un enfoque humano, ofreciendo consultoría especializada para la implementación efectiva de automatización inteligente y mejoras continuas. Nos distinguimos por nuestra cercanía, empatía y dedicación a cada cliente, apoyándonos en tecnologías avanzadas e inteligencia artificial para garantizar resultados que impulsan el crecimiento sostenible y la calidad en cada organización que confía en nosotros."
+        },
+        {
+            "id": 2,
+            "title": "Visión",
+            "icon": "bi bi-vinyl text-blue-500",
+            "description": "Ser reconocidos en Colombia y Latinoamérica para el año 2030 como la consultora líder en innovación y automatización de procesos empresariales mediante soluciones inteligentes y personalizadas. Aspiramos a transformar el panorama empresarial nacional y latinoamericano, creando entornos laborales más eficientes, humanos y competitivos, impulsados siempre por la mejora continua y el compromiso inquebrantable con la satisfacción del cliente."
+        }
+    ]
+}

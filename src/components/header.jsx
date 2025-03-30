@@ -74,10 +74,10 @@ export default function Header() {
           </Link>
 
           <Link
-            to="/about-us"
+            to="/whoWeAre"
             className="py-3 sm:py-0 hover:text-blue-700 text-slate-900 font-medium text-[15px]"
           >
-            ¿Quiénes Somos?
+            Mas Sobre Nosotros
           </Link>
         </nav>
       </div>
