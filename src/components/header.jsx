@@ -14,16 +14,16 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false); // Estado del menú
 
   return (
-    <header className="shadow-md tracking-wide relative z-50">
+    <header className="fixed top-0 left-0 w-full shadow-md tracking-wide z-50 bg-custom-dark">
       {/* Barra de navegación */}
-      <div className="flex items-center justify-between px-10 py-3 bg-white min-h-[65px]">
+      <div className="flex items-center justify-between px-10 py-3 min-h-[65px]">
 
         {/* Logo de la empresa */}
         <Link to="/">
           <img
-            src="https://readymadeui.com/readymadeui.svg"
+            src="../img/icon.png"
             alt="logo"
-            className="w-36"
+            className="w-20"
           />
         </Link>
 
@@ -48,37 +48,34 @@ export default function Header() {
 
         {/* Menú de navegación */}
         <nav
-          className={`absolute top-[65px] left-0 w-full bg-white shadow-md sm:shadow-none sm:relative sm:top-0 sm:w-auto sm:flex ${
-            menuOpen ? "block" : "hidden"
-          } sm:flex-row sm:gap-5 flex flex-col items-center sm:items-center sm:space-x-6`}
+          className={`absolute top-[65px] left-0 w-full .bg-custom-dark  shadow-md sm:shadow-none sm:relative sm:top-0 sm:w-auto sm:flex ${menuOpen ? "block" : "hidden"
+            } sm:flex-row sm:gap-5 flex flex-col items-center sm:items-center sm:space-x-6`}
         >
-          {/* Botones con scroll suave */}
           <button onClick={() => scrollToSection("servicios")} className="py-3 sm:py-0">
-            <span className="hover:text-blue-700 text-slate-900 font-medium text-[15px] cursor-pointer">
+            <span className="hover:text-[#6816bb] text-slate-50 font-medium text-[15px] cursor-pointer">
               Servicios
             </span>
           </button>
 
-          <button onClick={() => scrollToSection("objetivos")} className="py-3 sm:py-0">
-            <span className="hover:text-blue-700 text-slate-900 font-medium text-[15px] cursor-pointer">
-              Objetivos Estratégicos
+          <button onClick={() => scrollToSection("aboutUs")} className="py-3 sm:py-0">
+            <span className="hover:text-[#6816bb] text-slate-50 font-medium text-[15px] cursor-pointer">
+              Sobre Nosotros
             </span>
           </button>
-
-          {/* Enlaces con React Router */}
+          {/* 
           <Link
             to="/testimonies"
-            className="py-3 sm:py-0 hover:text-blue-700 text-slate-900 font-medium text-[15px]"
+            className="py-3 sm:py-0 hover:text-[#6816bb] text-slate-50 font-medium text-[15px]"
           >
             Testimonios
           </Link>
 
           <Link
             to="/whoWeAre"
-            className="py-3 sm:py-0 hover:text-blue-700 text-slate-900 font-medium text-[15px]"
+            className="py-3 sm:py-0 hover:text-[#6816bb] text-slate-50 font-medium text-[15px]"
           >
-            Mas Sobre Nosotros
-          </Link>
+            Más Sobre Nosotros
+          </Link> */}
         </nav>
       </div>
     </header>

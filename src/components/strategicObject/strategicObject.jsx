@@ -1,16 +1,11 @@
 import React from "react";
 import "../../App.css";
-import CarouselStrategicObjt from "../carouselStrategicObj";
 import strategicObjectives from "../../utilities/json/strategicObjectInformation.json";
 import StrategicCard from "./strategicCard"; // Importamos el componente hijo
 
 export default function StrategicObject() {
     return (
         <div id="objetivos" className="flex flex-col mt-10">
-            {/* Sección del carrusel */}
-            <div className="mt-5 mb-5">
-                <CarouselStrategicObjt />
-            </div>
 
             {/* Título de la sección */}
             <div className="flex justify-start w-full">

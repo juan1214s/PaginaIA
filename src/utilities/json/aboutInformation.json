@@ -1,18 +1,16 @@
 {
     "title": "Sobre Nosotros",
-    "description": "Somos una empresa líder en consultoría empresarial, especializada en optimización de procesos, gestión de calidad y soluciones de IA para impulsar la transformación digital.",
+    "description": "En Oprocess Systems, ayudamos a empresas a evolucionar optimizando sus procesos con un enfoque humano y el respaldo de tecnologías avanzadas. Nacimos en Colombia en 2024 con la visión de transformar organizaciones mediante automatización, inteligencia artificial y excelencia operativa..",
     "sections": [
         {
             "id": 1,
             "title": "Misión",
-            "icon": "bi bi-record-circle-fill text-blue-500",
-            "description": "Nuestra misión es transformar organizaciones mediante la optimización de procesos y la implementación de soluciones tecnológicas innovadoras, garantizando la excelencia operativa y el crecimiento sostenible de nuestros clientes."
+            "description": "Impulsar el crecimiento sostenible de nuestros clientes con soluciones inteligentes, consultoría empática y tecnología de vanguardia."
         },
         {
             "id": 2,
             "title": "Visión",
-            "icon": "bi bi-vinyl text-blue-500",
-            "description": "Ser reconocidos como referente líder en consultoría de procesos y transformación digital en Latinoamérica, destacando por nuestra innovación, excelencia y compromiso con el éxito de nuestros clientes."
+            "description": "Ser referentes en Latinoamérica al 2030 en innovación, automatización y calidad organizacional.."
         }
     ]
 }

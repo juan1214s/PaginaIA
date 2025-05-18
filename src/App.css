@@ -14,4 +14,88 @@ p {
     font-weight: 300; /* Más delgado */
 }
 
-  
+/* styles.css */
+.bg-dark {
+  background-color: #0a031a;
+}
+
+.bg-custom-dark {
+  backdrop-filter: blur(4px); /* opcional */
+}
+
+.background {
+  background-color: #0A0A0F;
+  color: white;
+}
+
+/* css del la sesion de servicios */
+
+@keyframes waveBackAndForth {
+  0% {
+    background-position: -150% 0;
+  }
+  50% {
+    background-position: 150% 0;
+  }
+  100% {
+    background-position: -150% 0;
+  }
+}
+
+.card-glow {
+  position: relative;
+  overflow: hidden;
+  background-color: #0f021b;
+  border: 1px solid #000000;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  color: white;
+  box-shadow: 0 0 10px #000000;
+
+  background-image: linear-gradient(
+    90deg,
+    rgba(104, 22, 187, 0) 0%,
+    rgba(104, 22, 187, 0.5) 40%,
+    rgba(104, 22, 187, 0.5) 50%,
+    rgba(104, 22, 187, 0.5) 60%,
+    rgba(104, 22, 187, 0) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+
+  animation: waveBackAndForth 8s ease-in-out infinite;
+}
+
+/* css del boton del banner */
+.btn-border-glow {
+  position: relative;
+  border: 2px solid transparent;
+}
+
+.btn-border-glow::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  border-radius: 0.5rem;
+  background: linear-gradient(270deg, transparent, #a855f7, transparent);
+  background-size: 200% 200%;
+  animation: border-glow 3s linear infinite;
+  z-index: -1;
+}
+
+@keyframes border-glow {
+  0% {
+    background-position: 200% 0%;
+  }
+  100% {
+    background-position: -200% 0%;
+  }
+}
+
+
+
+
+
