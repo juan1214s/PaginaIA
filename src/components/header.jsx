@@ -62,7 +62,7 @@ export default function Header() {
               Sobre Nosotros
             </span>
           </button>
-          {/* 
+          
           <Link
             to="/testimonies"
             className="py-3 sm:py-0 hover:text-[#6816bb] text-slate-50 font-medium text-[15px]"
@@ -75,7 +75,7 @@ export default function Header() {
             className="py-3 sm:py-0 hover:text-[#6816bb] text-slate-50 font-medium text-[15px]"
           >
             Más Sobre Nosotros
-          </Link> */}
+          </Link>
         </nav>
       </div>
     </header>

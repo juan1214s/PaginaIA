@@ -20,7 +20,7 @@ export default function BannerContent() {
       pagination={{ clickable: true }} // Activa la paginación y permite hacer clic en los indicadores
       autoplay={{ delay: 4000 }} // Configura el auto-reproducción con un retraso de 4 segundos
       loop={true} // Permite que el carrusel sea infinito
-      className="w-full rounded-xl mt-15" // Aplica estilos con Tailwind CSS
+      className="w-full rounded-xl mt-30" // Aplica estilos con Tailwind CSS
     >
 
       {/* Mapea cada slide desde el JSON y los convierte en diapositivas dinámicas */}
