@@ -1,10 +1,18 @@
 import React from "react";
 import aboutInfo from "../../utilities/json/aboutInformation.json"; 
 import AboutCard from "./aboutCard"; // Importamos el componente hijo
+import { motion } from "framer-motion";
 
 export default function AboutUs() {
     return (
-        <div id="aboutUs" className="flex justify-center items-center flex-col pt-25 pb-10 bg-[#0d0218]">
+        <motion.div
+          id="aboutUs"
+          className="flex justify-center items-center flex-col pt-25 pb-10 bg-[#0d0218]"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.5 }}
+          viewport={{ once: true }}
+        >
             {/* Sección de introducción */}
             <div className="flex flex-col items-center text-center">
                 <h1 className="text-5xl">{aboutInfo.title}</h1>
@@ -22,6 +30,6 @@ export default function AboutUs() {
                     />
                 ))}
             </div>
-        </div>
+        </motion.div>
     );
 }

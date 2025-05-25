@@ -1,7 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faWhatsapp, faFacebook } from "@fortawesome/free-brands-svg-icons";
+
+import { faInstagram, faWhatsapp, faFacebook, } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
+
 
 export default function Footer() {
     return (
@@ -43,21 +45,21 @@ export default function Footer() {
                             <Link>
                             
                             </Link>
-                            <li><a href="/whoWeAre" className="text-gray-400 hover:text-[#6816bb] text-sm">Más sobre nosotros</a></li>
-                            <li><a href="/" className="text-gray-400 hover:text-[#6816bb] text-sm">Términos &amp; Condiciones</a></li>
-                            <li><a href="/" className="text-gray-400 hover:text-[#6816bb] text-sm">Política y privacidad</a></li>
+                            <li><a href="/whoWeAre" className="text-white hover:text-[#6816bb] text-sm">Más sobre nosotros</a></li>
+                            <li><a href="/" className="text-white hover:text-[#6816bb] text-sm">Términos &amp; Condiciones</a></li>
+                            <li><a href="/" className="text-white hover:text-[#6816bb] text-sm">Política y privacidad</a></li>
                         </ul>
                     </div>
 
                     {/* Contacto */}
                     <div className="text-center">
                         <h4 className="mb-6 text-lg font-semibold">Contacto</h4>
-                        <p className="text-gray-400 text-sm">📧 gerencia@oprocesss.com</p>
-                        <p className="text-gray-400 text-sm">📞 +57 312 345 6789</p>
+                        <p className="text-white text-sm">📧 gerencia@oprocesss.com</p>
+                        <p className="text-white text-sm"> +57 312 345 6789</p>
                     </div>
                 </div>
 
-                <p className="text-gray-400 text-sm mt-10 text-center">© 2025 Oprocess Systems. Todos los derechos reservados.</p>
+                <p className="text-white text-sm mt-10 text-center">© 2025 Oprocess Systems. Todos los derechos reservados.</p>
             </div>
         </footer>
     );

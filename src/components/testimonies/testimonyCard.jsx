@@ -8,18 +8,18 @@ export default function TestimonyCard({ title, company, image, description, resu
   
         {/* Información */}
         <div className="w-full sm:w-1/2 pl-5 mt-5 sm:mt-0">
-          <h2 className="text-2xl font-semibold ">
+          <h2 className="text-2xl font-semibold">
             <i className="bi bi-trophy text-white"></i> {title}
           </h2>
           <h3 className="mt-2 text-lg font-medium">{company}</h3>
-          <p className="max-w-lg mt-5 text-gray-700">{description}</p>
+          <p className="max-w-lg mt-5 text-white">{description}</p>
   
           {/* Resultados */}
           <h3 className="mt-5 text-xl font-semibold">
             <i className="me-2 bi bi-star text-white"></i> Resultados destacados
           </h3>
           {results.map((result, index) => (
-            <p key={index} className="mt-2 text-gray-700">
+            <p key={index} className="mt-2 text-white">
               <i className="bi bi-arrow-up-right text-white"></i> {result}
             </p>
           ))}

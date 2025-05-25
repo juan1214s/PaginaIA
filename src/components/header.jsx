@@ -69,13 +69,6 @@ export default function Header() {
           >
             Testimonios
           </button>
-
-          <Link
-            to="/whoWeAre"
-            className="py-3 sm:py-0 hover:text-[#6816bb] text-slate-50 font-medium text-[15px]"
-          >
-            Más Sobre Nosotros
-          </Link>
         </nav>
       </div>
     </header>
