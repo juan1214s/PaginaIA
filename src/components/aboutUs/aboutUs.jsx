@@ -4,10 +4,10 @@ import AboutCard from "./aboutCard"; // Importamos el componente hijo
 
 export default function AboutUs() {
     return (
-        <div id="aboutUs" className="flex justify-center items-center flex-col pt-12 pb-10 bg-[#0d0218]">
+        <div id="aboutUs" className="flex justify-center items-center flex-col pt-25 pb-10 bg-[#0d0218]">
             {/* Sección de introducción */}
             <div className="flex flex-col items-center text-center">
-                <h1 className="text-3xl">{aboutInfo.title}</h1>
+                <h1 className="text-5xl">{aboutInfo.title}</h1>
                 <p className="max-w-2xl m-6">{aboutInfo.description}</p>
             </div>
 

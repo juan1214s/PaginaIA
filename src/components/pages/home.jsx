@@ -1,7 +1,7 @@
 import AboutUs from "../aboutUs/aboutUs";
 import BannerContent from "../banner";
 import Services from "../services/services";
-import StrategicObject from "../strategicObject/strategicObject";
+import Testimoniees from "../testimonies/testimonies"
 
 export default function Home() {
     return (
@@ -10,7 +10,7 @@ export default function Home() {
                 <BannerContent />
                 <Services />
                 <AboutUs />
-                {/* <StrategicObject /> */}
+                <Testimoniees />
             </div>
         </div>
     );

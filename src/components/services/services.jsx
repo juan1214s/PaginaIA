@@ -5,7 +5,7 @@ import ServiceCard from "../services/servicesCard"; // Importamos el componente 
 
 export default function Services() {
     return (
-        <div id="servicios" className="flex justify-center items-center flex-col pt-10 bg-[#0d0218]">
+        <div id="servicios" className="flex justify-center items-center flex-col pt-20 bg-[#0d0218]">
             <div className="flex flex-col items-center text-center mt-6">
                 <h1 className="text-5xl">Nuestros Servicios</h1>
                 <p className="text-center max-w-2xl m-6">

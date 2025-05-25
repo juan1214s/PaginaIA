@@ -63,12 +63,12 @@ export default function Header() {
             </span>
           </button>
           
-          <Link
+          <button onClick={()=> scrollToSection("testimonies")}
             to="/testimonies"
             className="py-3 sm:py-0 hover:text-[#6816bb] text-slate-50 font-medium text-[15px]"
           >
             Testimonios
-          </Link>
+          </button>
 
           <Link
             to="/whoWeAre"
