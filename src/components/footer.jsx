@@ -26,7 +26,7 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <a href="https://api.whatsapp.com/message/LL4KM7NN5MTVE1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer">
+                                <a href="https://wa.me/573232842337?text=Hola%2C%20quiero%20más%20información" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon icon={faWhatsapp} className="text-gray-300 hover:text-[#6816bb] text-2xl" />
                                 </a>
                             </li>
