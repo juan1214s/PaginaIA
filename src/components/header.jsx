@@ -16,12 +16,12 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 w-full shadow-md tracking-wide z-50 bg-custom-dark">
       {/* Barra de navegación */}
-      <div className="flex items-center justify-between px-10 py-3 min-h-[65px]">
+      <div className="flex items-center justify-between px-10 py-3 min-h-[65px] bg-[#0d0218]">
 
         {/* Logo de la empresa */}
         <Link to="/">
           <img
-            src="../img/icon.png"
+            src="../icons/icon.png"
             alt="logo"
             className="w-20"
           />
@@ -48,7 +48,7 @@ export default function Header() {
 
         {/* Menú de navegación */}
         <nav
-          className={`absolute top-[65px] left-0 w-full .bg-custom-dark  shadow-md sm:shadow-none sm:relative sm:top-0 sm:w-auto sm:flex ${menuOpen ? "block" : "hidden"
+          className={`absolute top-[65px] left-0 w-full bg-[#0d0218] sm:relative sm:top-0 sm:w-auto sm:flex ${menuOpen ? "block" : "hidden"
             } sm:flex-row sm:gap-5 flex flex-col items-center sm:items-center sm:space-x-6`}
         >
           <button onClick={() => scrollToSection("servicios")} className="py-3 sm:py-0">

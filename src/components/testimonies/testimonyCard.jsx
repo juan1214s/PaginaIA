@@ -1,14 +1,14 @@
 export default function TestimonyCard({ title, company, image, description, results }) {
     return (
-      <div className="card-glow flex flex-col sm:flex-row items-center mt-7 max-w-6xl mx-auto bg-white shadow-lg p-6 rounded-lg">
+      <div className="card-glow flex flex-col lg:flex-row items-center mt-7 max-w-6xl mx-auto bg-white shadow-lg p-6 rounded-lg">
         {/* Imagen */}
         <div className="w-full sm:w-1/2">
           <img src={image} alt={title} className="w-full h-auto rounded-lg" />
         </div>
   
         {/* Información */}
-        <div className="w-full sm:w-1/2 pl-5 mt-5 sm:mt-0">
-          <h2 className="text-2xl font-semibold">
+        <div className="w-full lg:w-1/2 pl-5 mt-5 sm:mt-0">
+          <h2 className="text-2xl font-semibold mt-5">
             <i className="bi bi-trophy text-white"></i> {title}
           </h2>
           <h3 className="mt-2 text-lg font-medium">{company}</h3>

@@ -1,9 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import { faInstagram, faWhatsapp, faFacebook, } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
-
 
 export default function Footer() {
     return (
@@ -13,7 +11,7 @@ export default function Footer() {
                     {/* Logo */}
                     <div className="flex justify-center">
                         <a href="/">
-                            <img src="../img/icon.png" alt="logo" className="w-48" />
+                            <img src="../icons/icon.png" alt="logo" className="w-48" />
                         </a>
                     </div>
 
@@ -26,7 +24,7 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <a href="https://wa.me/573232842337?text=Hola%2C%20quiero%20más%20información" target="_blank" rel="noopener noreferrer">
+                                <a href="https://wa.me/573232842337" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon icon={faWhatsapp} className="text-gray-300 hover:text-[#6816bb] text-2xl" />
                                 </a>
                             </li>
@@ -42,12 +40,9 @@ export default function Footer() {
                     <div className="text-center">
                         <h4 className="mb-6 text-lg font-semibold">Información</h4>
                         <ul className="space-y-4">
-                            <Link>
-                            
+                            <Link to="/politicas" className="text-white hover:text-[#6816bb] text-sm">
+                            Política y privacidad
                             </Link>
-                            <li><a href="/whoWeAre" className="text-white hover:text-[#6816bb] text-sm">Más sobre nosotros</a></li>
-                            <li><a href="/" className="text-white hover:text-[#6816bb] text-sm">Términos &amp; Condiciones</a></li>
-                            <li><a href="/" className="text-white hover:text-[#6816bb] text-sm">Política y privacidad</a></li>
                         </ul>
                     </div>
 
@@ -55,7 +50,7 @@ export default function Footer() {
                     <div className="text-center">
                         <h4 className="mb-6 text-lg font-semibold">Contacto</h4>
                         <p className="text-white text-sm">📧 gerencia@oprocesss.com</p>
-                        <p className="text-white text-sm"> +57 312 345 6789</p>
+                        <p className="text-white text-sm"> +57 323 284 2337</p>
                     </div>
                 </div>
 

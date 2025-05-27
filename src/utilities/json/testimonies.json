@@ -1,38 +1,37 @@
 [
   {
     "id": 1,
-    "title": "Transformación Digital en Manufactura",
-    "company": "IndustriasTech S.A",
-    "description": "Se implementó un sistema de automatización de procesos que redujo los tiempos de producción en un 40% y mejoró la calidad del producto en un 25%.",
+    "title": "Optimización de Gestión de Inventario Automatizada",
+    "company": "Machinery Diesel S.A.S",
+    "description": "Se diseñó e implementó una integración automatizada entre Siigo y el sitio web e-commerce, permitiendo el registro y control inteligente de inventarios en tiempo real. Este sistema de automatización mejoró drásticamente la trazabilidad, redujo errores manuales y aceleró los procesos de actualización de productos y stock.",
     "results": [
-      "40% reducción en tiempos",
-      "25% mejora en calidad",
-      "ROI en 6 meses"
+      "70% De mejora en la eficiencia operativa Gracias a la sincronización automática entre ventas en línea e inventario contable.",
+      "85% De reducción en errores por ingreso manual Gracias a la eliminación de doble digitación y validación directa desde la fuente oficial: Siigo.",
+      "Actualización de inventario en tiempo real con una precisión del 99% Garantizando coherencia entre el sistema contable y el catálogo de la tienda en línea."
     ],
-    "image": "/img/estadisticas.png"
+    "image": "https://oprocesss.com/imagesweb/Ecommerce.machinery.png"
   },
   {
     "id": 2,
-    "title": "Optimización de Servicios Financieros",
-    "company": "Banco Progreso",
-    "description": "Desarrollamos e implementamos un sistema de IA para la detección de fraudes que incrementó la eficiencia en un 60% y redujo los falsos positivos en un 35%.",
+    "title": "Levantamiento y Mejora de Procesos con Enfoque ISO 9001:2015",
+    "company": "Cotractor S.A.S",
+    "description": "Se ejecutó un levantamiento integral de los procesos organizacionales, alineado con los principios de la norma ISO 9001:2015, identificando ineficiencias, tareas duplicadas y oportunidades de mejora. A partir del mapeo detallado, se rediseñaron los flujos operativos con enfoque en la calidad, la eficiencia y la trazabilidad documental.",
     "results": [
-      "60% mayor eficiencia",
-      "35% menos falsos positivos",
-      "98% precisión en detección"
+      "40% Reducción en tiempos de ejecución de procesos clave Gracias a la estandarización, eliminación de actividades sin valor agregado y uso de herramientas tecnológicas.",
+      "30% De mejora en la comunicación interdepartamental Mediante el establecimiento de responsabilidades claras y diagramas de flujo comprensibles para todo el personal.",
+      "95% cumplimiento de los requisitos normativos de calidad Con base en auditorías internas simuladas y criterios de la ISO 9001:2015."
     ],
-    "image": "/img/banco.jpg"
+    "image": "https://oprocesss.com/imagesweb/cotractor.iso9001.png"
   },
   {
     "id": 3,
-    "title": "Gestión de Calidad en Logística",
-    "company": "LogísticaPro",
-    "description": "Implementamos un sistema integral de gestión de calidad que optimizó las rutas de entrega y redujo los tiempos de espera en un 50%.",
+    "title": "Transformación Digital y Automatización de Redes Sociales",
+    "company": "IndustriasTech S.A",
+    "description": "Se lideró la transformación digital del área de comunicaciones, implementando un sistema de automatización integral para redes sociales, con flujos inteligentes que permiten la programación, seguimiento de métricas clave y respuestas automatizadas con IA. Esta transformación también contribuyó indirectamente a optimizar los procesos de producción, al liberar tiempo operativo y mejorar la trazabilidad del contenido institucional.",
     "results": [
-      "50% reducción de tiempo de espera",
-      "30% ahorro en combustible",
-      "95% satisfacción del cliente"
+      "40% de reducción en tiempos de producción de contenidos digitales Gracias a la automatización de tareas repetitivas como publicaciones, informes y respuestas básicas.",
+      "25% de mejora en la calidad y coherencia del contenido publicado Logrado mediante plantillas estandarizadas, revisión asistida por IA y control de versiones."
     ],
-    "image": "/img/bolsa.jpg"
+    "image": "https://oprocesss.com/imagesweb/autorss.png"
   }
 ]

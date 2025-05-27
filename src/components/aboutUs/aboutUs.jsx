@@ -7,7 +7,7 @@ export default function AboutUs() {
     return (
         <motion.div
           id="aboutUs"
-          className="flex justify-center items-center flex-col pt-25 pb-10 bg-[#0d0218]"
+          className="flex justify-center items-center flex-col pt-30 md:pt-25 pb-10 bg-[#0d0218]"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5 }}
