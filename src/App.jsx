@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/layout";
 import Home from "./components/pages/home";
-import PoliticPrivacy from "./components/pages/politicPrivacy";
+import PoliticPrivacy from "./components/pages/piliticPrivacy/politicPrivacy";
 import ScrollToTop from "./components/scrollToTop"
 
 function App() {

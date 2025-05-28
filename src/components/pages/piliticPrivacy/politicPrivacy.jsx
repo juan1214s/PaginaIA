@@ -1,5 +1,6 @@
 import React from "react";
-import politicData from "../../utilities/json/politicPrivacy.json";
+import politicData from "../../../utilities/json/politicPrivacy.json";
+import PoliticCard from "./PoliticCard";
 
 export default function PoliticPrivacy() {
   return (
@@ -9,12 +10,7 @@ export default function PoliticPrivacy() {
         <h2 className="text-2xl text-center font-semibold mb-8">{politicData.company}</h2>
 
         {politicData.sections.map((section, index) => (
-          <div key={index} className="mb-6">
-            <h3 className="text-xl font-bold mb-2">{section.title}</h3>
-            {section.content.map((paragraph, i) => (
-              <p key={i} className="mb-2 whitespace-pre-line">{paragraph}</p>
-            ))}
-          </div>
+          <PoliticCard key={index} title={section.title} content={section.content} />
         ))}
       </div>
     </div>
